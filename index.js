@@ -1,4 +1,3 @@
-index.js
 require("dotenv").config();
 const { App } = require("@slack/bolt");
 const OpenAI = require("openai");

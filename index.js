@@ -2,7 +2,9 @@ require("dotenv").config();
 const { App } = require("@slack/bolt");
 const OpenAI = require("openai");
 
-const openai = new OpenAI({ apiKey: process.env.OPENAI_API_KEY });
+const openai = new OpenAI({
+  apiKey: process.env.OPENAI_API_KEY,
+});
 
 const app = new App({
   token: process.env.SLACK_BOT_TOKEN,

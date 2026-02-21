@@ -1,0 +1,14 @@
+{
+  "name": "hanbei-bot",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "@slack/bolt": "^3.19.0",
+    "dotenv": "^16.4.5",
+    "openai": "^4.0.0"
+  }
+}
